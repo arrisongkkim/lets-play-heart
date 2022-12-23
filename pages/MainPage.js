@@ -12,6 +12,7 @@ export default function MainPage({navigation,route}) {
 	//[state,setState] 에서 state는 이 컴포넌트에서 관리될 상태 데이터를 담고 있는 변수
   //setState는 state를 변경시킬때 사용해야하는 함수
 
+  
   //모두 다 useState가 선물해줌
   //useState()안에 전달되는 값은 state 초기값
   const [state,setState] = useState([])
